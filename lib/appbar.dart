@@ -43,12 +43,12 @@ class AppBar1 extends StatelessWidget {
         body: Row(
         children: <Widget>[
           const Icon(Icons.star, color: Colors.red),
-          const Text('Hello test buk'),
-          Center(
-            child: ElevatedButton(onPressed:() {
-              print('Button clicked');
-            }, child: const Text('Click me')),
-          )
+          const Text('Hello buk za'),
+          // Center(
+          //   child: ElevatedButton(onPressed:() {
+          //     print('Button clicked');
+          //   }, child: const Text('Click me')),
+          // )
         ],
       ),
     );
